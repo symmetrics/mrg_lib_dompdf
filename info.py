@@ -6,9 +6,9 @@
 # =============================================================================
 NAME = 'symmetrics_lib_dompdf'
 
-TAGS = ()
+TAGS = ('php', 'dompdf', 'lib', 'symmetrics')
 
-LICENSE = 'AFL 3.0'
+LICENSE = 'LGPL 2.1'
 
 HOMEPAGE = 'http://www.symmetrics.de'
 
@@ -19,36 +19,38 @@ INSTALL_PATH = ''
 # responsibilities
 # =============================================================================
 TEAM_LEADER = {
-    '[firstname] [lastname]': '[email]',
+    'Torsten Walluhn': 'tw@symmetrics.de',
 }
 
 MAINTAINER = {
-    '[firstname] [lastname]': '[email]',
+    'Eric Reiche': 'er@symmetrics.de',
 }
 
 AUTHORS = {
-    '[firstname] [lastname]': '[email]',
+    'Benj Carson': 'benjcarson@digitaljunkies.ca',
+    'Eric Reiche': 'er@symmetrics.de',
 }
 
 # =============================================================================
 # additional infos
 # =============================================================================
-INFO = '[short description, max 60 chars]'
+INFO = 'DOMPDF library for use in Magento modules'
 
 SUMMARY = '''
-    [long description
-    with multiple lines]
+dompdf is an HTML to PDF converter. At its heart, dompdf is (mostly) CSS2.1
+compliant HTML layout and rendering engine written in PHP. It is a style-driven
+renderer: it will download and read external stylesheets, inline style tags,
+and the style attributes of individual HTML elements. It also supports most
+presentational HTML attributes.
 '''
 
 NOTES = '''
-    [special notes, restrictions, bugs etc.]
 '''
 
 # =============================================================================
 # relations
 # =============================================================================
 REQUIRES = [
-    # {'magento': '*', 'magento_enterprise': '*'},
 ]
 
 EXCLUDES = {
@@ -58,13 +60,9 @@ VIRTUAL = {
 }
 
 DEPENDS_ON_FILES = (
-    'app/code/core/.../1.php',
-    'app/code/core/.../2.php',
-    'app/code/core/.../3.php',
 )
 
 PEAR_KEY = ''
 
 COMPATIBLE_WITH = {
-    # 'magento': ['1.3.2', '1.3.2.1', ...],
 }
