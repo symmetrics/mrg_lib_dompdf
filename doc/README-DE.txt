@@ -32,7 +32,12 @@ Wobei $html den HTML Sourcecode enthält.
 Muss noch analysiert werden.
 
 ** PROBLEMS
-Verschachtelte Tabellen funktionieren nicht
+Verschachtelte Tabellen funktionieren nicht (zuverlässig).
+Geordnete Listen werden nicht unterstützt (<ol>).
+Absolute+relative Positionierung funktioniert noch nicht.
+Nicht sehr fehler-tolerant für invaliden HTML Sourcecode.
+Große Dateien können eine Weile brauchen zum rendern.
+Große Dateien brauchen viel Arbeitsspeicher.
 
 * TESTCASES
 ** BASIC
