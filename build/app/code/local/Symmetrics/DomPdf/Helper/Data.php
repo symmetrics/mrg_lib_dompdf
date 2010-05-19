@@ -13,7 +13,7 @@
  * to license@magentocommerce.com so we can send you a copy immediately.
  *
  * @category  Symmetrics
- * @package   Symmetrics_PdfPrinter
+ * @package   Symmetrics_DomPdf
  * @author    symmetrics gmbh <info@symmetrics.de>
  * @author    Eric Reiche <er@symmetrics.de>
  * @copyright 2010 symmetrics gmbh
@@ -25,14 +25,14 @@
  * Default helper class
  *
  * @category  Symmetrics
- * @package   Symmetrics_PdfPrinter
+ * @package   Symmetrics_DomPdf
  * @author    symmetrics gmbh <info@symmetrics.de>
  * @author    Eric Reiche <er@symmetrics.de>
  * @copyright 2010 symmetrics gmbh
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * @link      http://www.symmetrics.de/
  */
-class Symmetrics_PdfPrinter_Helper_Data extends Mage_Core_Helper_Abstract
+class Symmetrics_DomPdf_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
      * Get cache directory for pdf fonts
