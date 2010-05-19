@@ -13,7 +13,7 @@
  * to license@magentocommerce.com so we can send you a copy immediately.
  *
  * @category  Symmetrics
- * @package   Symmetrics_PdfPrinter
+ * @package   Symmetrics_DomPdf
  * @author    symmetrics gmbh <info@symmetrics.de>
  * @author    Eric Reiche <er@symmetrics.de>
  * @author    Yauhen Yakimovich <yy@symmetrics.de>
